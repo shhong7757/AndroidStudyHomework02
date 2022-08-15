@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/drawable-v24/bt_appearance_text.xml" value="0.5435" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.314" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/drawable/bt_appearance_contained.xml" value="0.5435" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/drawable/bt_log_in.xml" value="0.409" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/drawable/bt_sign_up.xml" value="0.409" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/drawable/ic_launcher_background.xml" value="0.314" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/drawable/round_top.xml" value="0.5435" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/font-v26/font.xml" value="0.3411458333333333" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/font/font.xml" value="0.5802083333333333" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/layout-v28/fragment_guide01.xml" value="0.3109375" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/layout-v28/fragment_guide_item.xml" value="0.55" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/layout/activity_main.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/layout/activity_screen_slide_pager.xml" value="0.3109375" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/layout/fragment_guide.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/layout/fragment_guide01.xml" value="0.3109375" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/layout/fragment_guide02.xml" value="0.3109375" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/layout/fragment_guide03.xml" value="0.3109375" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/layout/fragment_guide_item.xml" value="0.40989583333333335" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/layout/fragment_log_in.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/layout/fragment_sign_in.xml" value="0.55" />
+        <entry key="..\:/Users/shhong7757/AndroidStudioProjects/Homework/AndroidStudyHomework02/app/src/main/res/layout/fragment_sign_up.xml" value="0.3333333333333333" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

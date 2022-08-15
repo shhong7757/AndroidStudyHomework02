@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/guide_layout_skip_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="16dp"
+            android:background="#00FF0000"
+            android:text="@string/skip"
+            android:textColor="@color/text_gray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/guide_pager"
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@id/guide_pager_indicator"
+            app:layout_constraintTop_toBottomOf="@+id/guide_layout_skip_button" />
+
+        <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+            android:id="@+id/guide_pager_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:dotsColor="@color/dot_indicator"
+            app:dotsCornerRadius="2.5dp"
+            app:dotsSize="5dp"
+            app:dotsSpacing="10dp"
+            app:dotsWidthFactor="4.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guide_pager"
+            app:selectedDotColor="@color/dot_indicator_selected" />
+
+        <LinearLayout
+            android:id="@+id/guide_layout_button_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guide_pager_indicator">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/guide_layout_sign_up_button"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:text="@string/sign_up"
+                android:background="@drawable/bt_appearance_contained"
+                android:textColor="@color/white"
+                app:layout_constraintTop_toBottomOf="@id/guide_pager_indicator"
+                android:layout_marginRight="14.75dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/guide_layout_log_in_button"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bt_appearance_outlined"
+                android:textColor="#3D5CFF"
+                android:text="@string/log_in"
+                app:layout_constraintTop_toBottomOf="@id/guide_pager_indicator" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">AndroidStudyHomework02</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skip">skip</string>
+    <string name="guide_01_title">Numerous free\ntrial courses</string>
+    <string name="guide_01_description">free courses for you to\nfind your way to learning</string>
+    <string name="guide_02_title">Quick and easy\nlearning</string>
+    <string name="guide_02_description">Easy and fast learning at\nany time to help you\nimprove various skills</string>
+    <string name="guide_03_title">Create your own\nstudy plan</string>
+    <string name="guide_03_description">study according to the\nstudy plan, make study\nmore motivated</string>
+    <string name="sign_up">Sign up</string>
+    <string name="log_in">Log in</string>
+    <string name="guide_layout_image_description">guide_description</string>
+    <string name="sign_up_layout_title">Sign Up</string>
+    <string name="sign_up_layout_description">Enter your details below &amp; free sign up</string>
+    <string name="log_in_layout_title">Log In</string>
+    <string name="hint_email">Your Email</string>
+    <string name="hint_password">Password</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="log_in_layout_sign_up_guide">Don\'t have an account?</string>
+    <string name="log_in_layout_sso_guide">Or login with</string>
+    <string name="sign_up_layout_log_in_guide">Already have an account?</string>
+    <string name="sign_up_layout_terms_guide">By createing an account you have to agree\nwith our them &amp; condication</string>
+    <string name="create_account">Create account</string>
 </resources>
